@@ -41,7 +41,7 @@ public class LVactivity extends AppCompatActivity implements AdapterView.OnItemC
 
         if (sw == true){
             for (int i = 0; i < 20; i++){
-                num1 = etFirst * Math.pow(etD,(i));
+                num1 = etFirst * Math.pow(etD,i);
                 str = String.valueOf(num1);
                 if (str.contains("E")){
                     NumberFormat num = new DecimalFormat();
